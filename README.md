@@ -32,7 +32,24 @@ pip install -r requirements.txt
 ```
 
 ## Key Results
-- *(fill in: average spread, ADF test conclusion, chosen ARIMA order, forecast accuracy metrics)*
+- average spread of the yield curve (10yr - 1yr): 0.93%
+- ADF test conclusion:Stationarity test(ADF Test)
+Null Hypothesis: Series has a unit root (non-stationary)
+If p-value < 0.05: Reject null - series is stationary
+If p-value > 0.05:Fail to reject null - series is not stationary
+ADF Statistics:-2.4513
+p-value:0.1278
+conclusion:Non-Stationary
+
+After differencing:
+ADF Statistics:-3.9450
+p-value:0.0017
+conclusion:Stationary 
+- chosen ARIMA order: (1,1,1)
+- forecast accuracy metrics: 
+MAE  (Mean Absolute Error): 0.44%
+RMSE (Root Mean Square Error): 0.51%
+MAPE (Mean Absolute Percentage Error): 6.65%
 
 ## Author
 Shivani — M.A.Economics (Applied Quantitative Finance), Madras School of Economics
