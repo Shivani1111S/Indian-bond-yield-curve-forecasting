@@ -1,0 +1,6 @@
+ADF Test results
+10yr Yield (levels) p-value:0.12777713883762176
+conclusion: Non-Stationary
+
+10yr Yield (first Difference) p_value:0.001727449643581025
+conclusion: Stationary

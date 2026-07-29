@@ -1,0 +1,25 @@
+# Data files (often too large / proprietary — keep out of version control)
+*.xlsx
+*.xls
+!sample_data/*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs (optional — keep if you want plots versioned, ignore if not)
+# *.png
